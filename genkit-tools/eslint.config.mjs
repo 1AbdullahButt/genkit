@@ -34,6 +34,11 @@ export default tseslint.config(
     },
     rules: {
       'vitest/no-focused-tests': 'error',
+      'vitest/consistent-test-it': [
+        'error',
+        { fn: 'it', withinDescribe: 'it' },
+      ],
+      'vitest/require-top-level-describe': 'error',
     },
   }
 );
