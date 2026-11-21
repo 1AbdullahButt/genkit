@@ -19,11 +19,11 @@
     "pack:telemetry-server": "cd telemetry-server && pnpm pack --pack-destination ../../dist"
   },
   "devDependencies": {
-    "json-schema": "^0.4.0",
+    "json-schema": "catalog:",
     "only-allow": "^1.2.2",
-    "tsx": "^4.23.15",
-    "zod": "3.25.76",
-    "zod-to-json-schema": "~3.25.2"
+    "tsx": "catalog:",
+    "zod": "catalog:",
+    "zod-to-json-schema": "catalog:"
   },
   "pnpm": {
     "overrides": {
