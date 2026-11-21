@@ -32,6 +32,7 @@ export default tseslint.config(
       'preserve-caught-error': 'error',
       'no-case-declarations': 'error',
       'prefer-rest-params': 'error',
+      'no-var': 'error',
     },
   },
   {
