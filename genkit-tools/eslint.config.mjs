@@ -29,6 +29,7 @@ export default tseslint.config(
     rules: {
       'no-unsafe-finally': 'error',
       'no-async-promise-executor': 'error',
+      'preserve-caught-error': 'error',
     },
   },
   {
