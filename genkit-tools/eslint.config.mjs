@@ -33,6 +33,7 @@ export default tseslint.config(
       'no-case-declarations': 'error',
       'prefer-rest-params': 'error',
       'no-var': 'error',
+      'prefer-const': 'error',
     },
   },
   {
