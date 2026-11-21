@@ -31,6 +31,7 @@ export default tseslint.config(
       'no-async-promise-executor': 'error',
       'preserve-caught-error': 'error',
       'no-case-declarations': 'error',
+      'prefer-rest-params': 'error',
     },
   },
   {
