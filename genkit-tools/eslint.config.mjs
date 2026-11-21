@@ -39,6 +39,14 @@ export default tseslint.config(
       'no-prototype-builtins': 'error',
       'no-useless-assignment': 'error',
       'no-useless-escape': 'error',
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+        },
+      ],
     },
   },
   {
