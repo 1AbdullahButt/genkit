@@ -40,6 +40,10 @@ export default tseslint.config(
       ],
       'vitest/require-top-level-describe': 'error',
       'vitest/no-identical-title': 'error',
+      'vitest/expect-expect': [
+        'error',
+        { assertFunctionNames: ['expect', 'assert*'] },
+      ],
     },
   }
 );
