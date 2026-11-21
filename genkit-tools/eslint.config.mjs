@@ -28,6 +28,7 @@ export default tseslint.config(
     extends: [tseslint.configs.base, eslintConfigPrettier],
     rules: {
       'no-unsafe-finally': 'error',
+      'no-async-promise-executor': 'error',
     },
   },
   {
