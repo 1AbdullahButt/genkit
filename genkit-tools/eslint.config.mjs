@@ -38,6 +38,7 @@ export default tseslint.config(
       'no-extra-boolean-cast': 'error',
       'no-prototype-builtins': 'error',
       'no-useless-assignment': 'error',
+      'no-useless-escape': 'error',
     },
   },
   {
