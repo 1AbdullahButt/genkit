@@ -44,6 +44,7 @@ export default tseslint.config(
         'error',
         { assertFunctionNames: ['expect', 'assert*'] },
       ],
+      'vitest/prefer-to-be': 'error',
     },
   }
 );
