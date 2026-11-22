@@ -20,8 +20,8 @@ import {
   startTelemetryServer,
 } from '@genkit-ai/telemetry-server';
 import type { Status } from '@genkit-ai/tools-common';
+import type { BaseRuntimeManager } from '@genkit-ai/tools-common/manager';
 import {
-  BaseRuntimeManager,
   DEFAULT_REFLECTION_V2_HOST,
   ProcessManager,
   REFLECTION_SECRET_ENV,

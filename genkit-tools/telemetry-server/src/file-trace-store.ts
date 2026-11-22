@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
+import type { SpanData } from '@genkit-ai/tools-common';
 import {
-  SpanData,
   TraceDataSchema,
   type TraceData,
   type TraceQueryFilter,

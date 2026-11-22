@@ -18,9 +18,11 @@ import * as clc from 'colorette';
 import { randomUUID } from 'crypto';
 import { z } from 'zod';
 import type { BaseRuntimeManager } from '../manager/manager.js';
-import {
+import type {
   GenerateActionOptions,
   GenerateResponseData,
+} from '../types/index.js';
+import {
   type Action,
   type CandidateData,
   type Dataset,
