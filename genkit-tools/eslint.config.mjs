@@ -64,6 +64,7 @@ export default tseslint.config(
         'error',
         'error-handling-correctness-only',
       ],
+      '@typescript-eslint/only-throw-error': 'error',
     },
   },
   {
