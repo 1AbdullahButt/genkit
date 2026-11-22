@@ -32,6 +32,7 @@ export default tseslint.config(
       eslintConfigPrettier,
     ],
     rules: {
+      eqeqeq: ['error', 'always', { null: 'ignore' }],
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-unused-vars': [
         'error',
